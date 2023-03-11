@@ -6,21 +6,21 @@ THIS REST API IS USING CPF VALIDATION WITH ITS OWN CLASS, SO IT IS NOT NECESSARY
 
 ENDPOINTS 
 
-REQUESTMAPPING
-### ("/records")
+### REQUESTMAPPING
+ ("/records")
 
 
-POST
-### ("/records/")
+### POST
+("/records/")
 
-GET ALL
-### ("/records/")
+### GET ALL
+("/records/")
 
-GET BY ID
-### ("/records/{PARAMTER ID}")
+### GET BY ID
+("/records/{PARAMTER ID}")
 
-DELETE
-### ("/records/{PARAMTER ID}")
+### DELETE
+("/records/{PARAMTER ID}")
 
-PUT
-### ("/records/{PARAMTER ID}")
+### PUT
+("/records/{PARAMTER ID}")
