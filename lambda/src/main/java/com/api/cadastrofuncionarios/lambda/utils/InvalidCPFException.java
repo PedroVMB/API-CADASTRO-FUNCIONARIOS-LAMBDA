@@ -1,4 +1,4 @@
-package com.api.cadastrofuncionarios.lambda.service;
+package com.api.cadastrofuncionarios.lambda.utils;
 
 
 public class InvalidCPFException extends RuntimeException {

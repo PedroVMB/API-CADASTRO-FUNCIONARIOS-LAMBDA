@@ -4,17 +4,14 @@ import com.api.cadastrofuncionarios.lambda.enums.GeneralMessages;
 import com.api.cadastrofuncionarios.lambda.utils.CpfMethod;
 import com.api.cadastrofuncionarios.lambda.model.FunctionaryModel;
 import com.api.cadastrofuncionarios.lambda.repositories.FunctionaryRepository;
+import com.api.cadastrofuncionarios.lambda.utils.InvalidCPFException;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import javax.swing.*;
-
 import java.util.Optional;
 import java.util.UUID;
-
-import static com.api.cadastrofuncionarios.lambda.enums.GeneralMessages.CPF_INVALID;
 
 @Service
 public class FunctionaryService {
